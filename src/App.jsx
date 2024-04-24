@@ -15,7 +15,7 @@ function App() {
     console.log('coco')
     console.log(result)
 
-    setImages(result)
+    SetImages(result)
   }
 
   return (
