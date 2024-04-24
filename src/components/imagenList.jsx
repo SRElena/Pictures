@@ -1,9 +1,9 @@
-import imageShow from './imagenShow'
+import ImageShow from './ImagenShow'
 import './ImageList.css'
 
-function imagenList({ images }){
+function ImagenList({ images }){
     const renderImagen = images.map((image) =>{
-        return <imageShow key={image.id} image={image}/>
+        return <ImageShow key={image.id} image={image}/>
     })
 
     return(
@@ -13,4 +13,4 @@ function imagenList({ images }){
     )
 }
 
-export default imagenList
+export default ImagenList

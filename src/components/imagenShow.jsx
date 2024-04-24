@@ -1,4 +1,4 @@
-function imagenShow({ image }){
+function ImagenShow({ image }){
     return(
         <div>
             <img src={image.urls.small}
@@ -7,4 +7,4 @@ function imagenShow({ image }){
     )
 }
 
-export default imagenShow
+export default ImagenShow
